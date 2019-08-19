@@ -35,6 +35,8 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 \pagestyle{fancy}
+\newcommand{\datestyle}{\color{datecolor} \footnotesize \rmfamily \upshape}
+\renewcommand{\headrulewidth}{0.0pt} 
 \fancyhf{}
 \lfoot{\mbox{\kern-3.5cm$\text{*}$ as on \today}}
 
@@ -53,9 +55,9 @@
 %----------------------------------------------------------------------------------------
 
 \moveleft.5\hoffset\centerline{\LARGE\bf Vibhor Aggarwal} % Your name at the top
- \moveleft.5\hoffset\centerline{Master's Student, Automotive Engineering at RWTH Aachen}
+ \moveleft.5\hoffset\centerline{MSc. Student, Automotive Engineering at RWTH Aachen, Germany}
  
-% { Research fellow, Italian Institute of Technology, Genova, Italy }
+
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
 
 \moveleft.5\hoffset\leftline {vibhorag24@gmail.com  \hspace{9cm}Bayernallee 7}  % Your address
@@ -71,16 +73,6 @@
 %----------------------------------------------------------------------------------------
 %	OBJECTIVE SECTION
 %----------------------------------------------------------------------------------------
-
-\section{ACHIEVEMENT AND AWARDS} 
-
-
-\textbf{Best Under-Graduate project} in Mechanical Engineering department of IIT Kanpur in 2017 \\
-\textbf{Ranjan Kumar Memorial Award} for the \textbf{best socially relevant project} at IIT Kanpur in 2017\\
-Ranked \textbf{3rd} in state and 914 nationally \textbf{among 1.4 million students} in JEE 2013\\
-%Ranked 103 in National level Science Talent  Search Examination by Unified Council\\
-\textbf{Gold Medal} in National Mathematics Olympiad conducted by AISMTA,2013\\
-
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
@@ -98,25 +90,38 @@ RWTH Aachen, Germany
 
  
 
- {\sl Intermediate, Central Board of Secondary Education} \hfill %\hfill 95.6\% 
- \hfill May 2013 \\
-Army Public School, Dehradun, India
+%{\sl Intermediate, Central Board of Secondary Education} \hfill %\hfill 95.6\% 
+%\hfill May 2013 \\
+%Army Public School, Dehradun, India
 
 
 %{\sl Matric, Central Board of Secondary Education} %\hfill\hfill\hfill\hfill\hfill \hfill\hfill CGPA: 10/10 
 %\hfill May 2011 \\
 %St. Mary's Convent School, Dehradun, India
  
+ 
+ %----------------------------------------------------------------------------------------
+ %	ACHIEVEMENTS AND AWARDS SECTION
+ %----------------------------------------------------------------------------------------
+\section{ACHIEVEMENT AND AWARDS} 
+
+
+\textbf{Best Under-Graduate project} in Mechanical Engineering department of IIT Kanpur in 2017 \\
+\textbf{Ranjan Kumar Memorial Award} for the \textbf{best socially relevant project} at IIT Kanpur in 2017\\
+Ranked \textbf{3rd} in state and 914 nationally \textbf{among 1.4 million students} in JEE 2013\\
+%Ranked 103 in National level Science Talent  Search Examination by Unified Council\\
+\textbf{Gold Medal} in National Mathematics Olympiad conducted by AISMTA,2013\\
 
 %----------------------------------------------------------------------------------------
 %	PROFESSIONAL EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 \section{EXPERIENCE}
 
-{\sl Student research assistant, }Institute of Automatic Control \hfill Sep 2019 - Present \\
-%Supervisor: M.Sc. Martin Kosch, RWTH Aachen\\
+{\sl Student research assistant } \hfill May 2019 - Present \\
+%Supervisor: M.Sc. Martin Kosch, 
+Institute of Automatic Control, RWTH Aachen\\
 \begin{itemize}
-	\item  Electronic design improvement for a semi-automated driven buggy for better performance
+	\item  Sensor fusion for Navigation and path planning of an Unmanned Aerial Vehicle
 	
 \end{itemize} 
 
@@ -124,7 +129,7 @@ Army Public School, Dehradun, India
 Supervisor: Dr. Daniele Pucci, Italian Institute of Technology, Genova, Italy\\
 
 \begin{itemize}
-	\item  Defining and identifying the \textbf{transfer function} between the voltage applied to the motors and the torque of each joint of the humanoid robot iCub
+	\item  Defining and identifying the \textbf{transfer function} between the voltage applied to the motors and the torque of each joint of the Humanoid robot, iCub
 	\item  Implement the low level torque control framework on the joints of iCub using the identified transfer function
 
 \end{itemize} 
@@ -145,7 +150,7 @@ Hero Motocorp Ltd, Haridwar, India\\
 Grey Orange Robotics Pte. Ltd, Gurugram, India\\
 
 \begin{itemize}
-	\item Worked on the Suspension system of a robot, which is a bi- directionally scalable material handling system for goods to man
+	\item Designed suspension of a robot for bi- directionally scalable material handling
 	\item Optimized the assembly through introduction of trailing link in the Suspension system, and reduced the number of parts
 %	\item Studied the designing of structural features and material choice for the casting of Aluminum parts
 
@@ -173,8 +178,8 @@ Supervisor: Dr. Sumit Basu, IIT Kanpur, India\\
 {\sl Multiple Crop Planting Machine} \hfill Jan 2015 - April 2015 \\
 Guide: Dr. V.K Jain, IIT Kanpur, India\\
 \begin{itemize} % Reduce space between items
-\item Worked in a team of 7 members to design and fabricate a working model of crop planting machine
-\item Simulated the machine on Solidworks and Ansys, for functionality 
+\item Designed and fabricated a working model of modular crop planting machine
+%\item Simulated the machine on Solidworks and Ansys, for functional ity
 
 \end{itemize}
 
@@ -207,16 +212,20 @@ Supervisor: Dr. Avinash Kumar Agarwal, IIT Kanpur\\
 
 MATLAB,Solidworks,Ansys,Autodesk Inventor, Lotus Suspension Analysis, Abaqus FEA, C language\\
 
-\section{LANGUAGES (not certified)} 
+\section{LANGUAGES }%(not certified) 
 
-German(B1), Italian(A1), English(Bilingual), Hindi(Native)\\
+%German(B1), Italian(A1), English(Bilingual), Hindi(Native)\\
+
+Native or Bilingual \hspace{6.5ex} English, Hindi            \\
+Limited working \hspace{9.2ex} German          \\
+Elementary \hspace{14.4ex} Italian           \\
 \section{RELEVANT \\ COURSES}
 Design for Manufacturing and Assembly \hfill Fracture and Fatigue            \\
 Solar Energy Technology \hfill Design of Machine Elements\\
 Mechanics of Solids \hfill Additive Manufacturing\\
 Theory of Mechanisms and machine \hfill Finite Element Methods\\
 Organizational and administrative psychology\hfill Mathematical Modelling\\
-Mathematical Methods\hfill Vibration and Control
+Mathematical Methods\hfill Tribology
 
 
 
